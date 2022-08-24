@@ -9,7 +9,7 @@
         "build:js": "webpack",
         "build": "npm run build:circom && npm run build:sol && npm run build:js",
         "deploy": "truffle migrate --reset",
-        "serve": "webpack serve",
+        "start": "webpack serve",
         "test": "truffle test"
     },
     "devDependencies": {
