@@ -7,7 +7,7 @@
         "build:circom": "./scripts/build_circuit.sh Membership",
         "build:sol": "truffle compile",
         "build:js": "webpack",
-        "build": "npm run build:circom && npm run build:sol && npm run build:js",
+        "build": "npm run build:js",
         "deploy": "truffle migrate --reset",
         "start": "webpack serve",
         "test": "truffle test"
